@@ -1,0 +1,142 @@
+* {
+  margin: 10px;
+}
+
+
+.body {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-form {
+  margin: 25px;
+}
+
+.contact-details i {
+  border-radius: 60%;
+  border: solid 1px white;
+  padding: 10px;
+  color: white;
+  margin: 15px;
+  height: 22px;
+  width: 21px;
+  align-content: center;
+}
+
+.contact-details {
+background-color: rgb(42, 230, 136);
+color: white;
+padding: 6px;
+text-wrap: wrap;
+width: 26%;
+}
+
+.contact-details h1{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+
+.contact-form label {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.contact-form input {
+  height: 30px;
+  width: 90%;
+  border: none;
+  border-bottom: solid 2px rgb(201, 195, 195);
+}
+
+button {
+  background-color:rgb(42, 230, 136);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  padding: 6px;
+  border: none;
+}
+
+.contact-form textarea {
+  border: none;
+  border-bottom: solid 2px rgb(201, 195, 195);
+  height: 15vh;
+  width:90%
+}
+
+.contact-form :placeholder-shown {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+#section2 {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+#name {
+width: 45%;
+}
+#email {
+  width: 45%;
+}
+
+/* .container {
+  display: grid;
+  grid-template-areas:
+  'section1 section2 section2 section2 section 2'
+  'section1 section3 section3'
+  'section1 section4 section4'
+  'section1 section5 section5'
+  'section1 section6 section6';
+
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+
+height: 100vh;
+gap: 5px;
+}
+
+#section1 {
+  grid-area: section1;
+}
+
+#section2 {
+  grid-area: section2;
+}
+
+#section3{
+  grid-area: section3;
+}
+#section4{
+  grid-area: section4;
+}
+#section5{
+  grid-area: section5;
+}
+#section6{
+  grid-area: section6;
+}
+@media (max-width: 800px) and (min-width: 501px) {
+	.container {
+		grid-template-areas:  'section1 section2 section2'
+    'section1 section3 section3'
+    'section1 section4 section4'
+    'section1 section5 section5'
+    'section1 section6 section6';
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+
+  }
+  } */
